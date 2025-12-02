@@ -25,7 +25,12 @@ Route Tables (Public + Private)
 EC2 Instances placed in the correct subnets
 
 Architecture Diagram:
-(Insert your screenshot here by clicking the image button in the README editor)
+## VPC Architecture
+
+Below is the architecture diagram for the VPC setup used in this project:
+
+![VPC Architecture Diagram](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/MyNetworkingVPC%20Architecture%20diagram.png?raw=true)
+
 
 🧪 Steps Performed in the Lab
 
