@@ -71,6 +71,15 @@ Below are the screenshots of the deployment steps:
 ### 5. Public Route Table
 ![Public RT](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/Routetable-created.png?raw=true)
 
+### 6. Private Route Table
+![Private RT](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/Private-Route.png?raw=true)
+
+### 7. Nat Gateway
+![Nat GW](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/Natgw.png?raw=true)
+
+### 8. Private Route Table To Use Natgateway
+![Private Route/Natgw](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/Private-Route-To-Use-Natgw.png?raw=true)
+
 
 
 🎯 What I Learned
