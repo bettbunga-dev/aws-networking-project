@@ -4,6 +4,7 @@ Overview
 This project demonstrates how to design and implement a custom Virtual Private Cloud (VPC) in AWS.
 It includes subnets, route tables, an Internet Gateway, a NAT Gateway, EC2 instances, and proper routing architecture.
 
+
 All resources were deployed using an AWS-provided lab environment.
 
 📐 VPC Architecture
@@ -23,6 +24,7 @@ NAT Gateway
 Route Tables (Public + Private)
 
 EC2 Instances placed in the correct subnets
+
 
 Architecture Diagram:
 ## VPC Architecture
@@ -48,12 +50,22 @@ Launched EC2 instances in public and private subnets
 
 Verified connectivity
 
+
 Documented and captured screenshots
 
 📸 Screenshots
 
 Below are the screenshots of the deployment steps:
-(Add your uploaded images here — GitHub allows you to paste images directly)
+### 1. VPC Created
+![VPC Created](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/vpc-created.png?raw=true)
+
+### 2. Public Subnets
+![Public Subnets](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/Subnet-Public.png?raw=true)
+
+### 3. Private Subnets
+![Private Subnets](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/Subnet-Private.png?raw=true)
+
+
 
 🎯 What I Learned
 
@@ -66,6 +78,8 @@ How NAT and Internet Gateways work
 EC2 network accessibility rules
 
 AWS networking best practices
+
+
 
 📎 LinkedIn Post
 
