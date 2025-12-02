@@ -54,6 +54,8 @@ Private EC2 Instance
 
 🖼️ Architecture Diagram
 
+![VPC Architecture Diagram](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/MyNetworkingVPC%20Architecture%20diagram.png?raw=true)
+
 📸 Deployment Screenshots
 
 Below are screenshots of the deployment steps captured in the AWS lab environment:
