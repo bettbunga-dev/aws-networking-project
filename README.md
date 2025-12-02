@@ -80,7 +80,12 @@ Below are the screenshots of the deployment steps:
 ### 8. Private Route Table To Use Natgateway
 ![Private Route/Natgw](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/Private-Route-To-Use-Natgw.png?raw=true)
 
+### 9. Private EC2
+![Private EC2](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/Private-Ec2.png?raw=true)
 
+
+### 10. Public EC2
+![Public EC2](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/Public-EC2.png?raw=true)
 
 🎯 What I Learned
 
