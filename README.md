@@ -1,40 +1,100 @@
-AWS VPC Networking Project
-Overview
+🌐 AWS VPC Networking Project
+📌 Overview
 
-This project demonstrates how to design and implement a custom Virtual Private Cloud (VPC) in AWS.
-It includes subnets, route tables, an Internet Gateway, a NAT Gateway, EC2 instances, and proper routing architecture.
+This project demonstrates the design and implementation of a custom AWS Virtual Private Cloud (VPC) following real-world cloud networking best practices.
 
-
-All resources were deployed using an AWS-provided lab environment.
-
-📐 VPC Architecture
-
-VPC Configuration Includes:
+Using an AWS-provided ALX Lab Environment, I deployed a full networking infrastructure that includes:
 
 Custom VPC
 
-2 Public Subnets
-
-2 Private Subnets
+Public & Private Subnets
 
 Internet Gateway
 
 NAT Gateway
 
-Route Tables (Public + Private)
+Public & Private Route Tables
 
 Security Groups
 
-EC2 Instances placed in the correct subnets
+Public & Private EC2 Instances
+
+End-to-end routing configuration
+
+This project showcases my understanding of AWS networking, infrastructure design, and cloud architecture documentation.
+
+🏗️ VPC Architecture
+🔧 Components Deployed
+
+Custom VPC (CIDR: 10.0.0.0/16)
+
+2 Public Subnets (for ALB and Bastion/Public EC2)
+
+2 Private Subnets (for backend servers)
+
+Internet Gateway (for public internet access)
+
+NAT Gateway (to allow private EC2 outbound access)
+
+Public Route Table (routes internet traffic via IGW)
+
+Private Route Table (routes outbound traffic via NAT Gateway)
+
+Security Groups
+
+Public EC2 SG (HTTP + SSH restricted)
+
+Private EC2 SG (backend access only)
+
+EC2 Instances
+
+Public EC2 Instance
+
+Private EC2 Instance
+
+🖼️ Architecture Diagram
+
+📸 Deployment Screenshots
+
+Below are screenshots of the deployment steps captured in the AWS lab environment:
 
 
-Architecture Diagram:
-## VPC Architecture
 
-Below is the architecture diagram for the VPC setup used in this project:
+Included Screenshots:
 
-![VPC Architecture Diagram](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/MyNetworkingVPC%20Architecture%20diagram.png?raw=true)
+VPC creation
 
+Subnets creation (Public & Private)
+
+Internet Gateway attachment
+
+NAT Gateway creation
+
+Route Table configuration
+
+Public EC2 instance
+
+Private EC2 instance
+
+Security Group configuration
+
+Final verification
+
+🧠 Skills Demonstrated
+
+Through this project, I demostrated:
+
+How to design a secure multi-tier VPC
+
+Best practices for routing and subnet isolation
+
+How public and private subnets interact
+
+How NAT Gateways enable secure outbound internet access
+
+How Security Groups enforce traffic control
+
+How to document cloud infrastructure professionally
 
 🧪 Steps Performed in the Lab
 
@@ -97,21 +157,3 @@ Below are the screenshots of the deployment steps:
 ![Public SG](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/Public%20SG.png?raw=true)
 
 
-🎯 What I Learned
-
-VPC design fundamentals
-
-Public vs private subnet routing
-
-How NAT and Internet Gateways work
-
-EC2 network accessibility rules
-
-AWS networking best practices
-
-
-
-📎 LinkedIn Post
-
-I also shared this project on LinkedIn as part of my cloud portfolio:
-(You will paste your LinkedIn post link here once we create it.)
