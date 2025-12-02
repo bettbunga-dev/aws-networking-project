@@ -23,6 +23,8 @@ NAT Gateway
 
 Route Tables (Public + Private)
 
+Security Groups
+
 EC2 Instances placed in the correct subnets
 
 
@@ -86,6 +88,14 @@ Below are the screenshots of the deployment steps:
 
 ### 10. Public EC2
 ![Public EC2](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/Public-EC2.png?raw=true)
+
+### 8. Private SG
+![Private SG](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/Private%20SG.png?raw=true)
+
+
+### 7. Public SG
+![Public SG](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/Public%20SG.png?raw=true)
+
 
 🎯 What I Learned
 
