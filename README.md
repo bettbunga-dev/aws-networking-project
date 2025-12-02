@@ -23,8 +23,9 @@ End-to-end routing configuration
 
 This project showcases my understanding of AWS networking, infrastructure design, and cloud architecture documentation.
 
-🏗️ VPC Architecture
-🔧 Components Deployed
+
+
+VPC Architecture Components Deployed
 
 Custom VPC (CIDR: 10.0.0.0/16)
 
