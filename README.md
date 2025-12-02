@@ -65,6 +65,12 @@ Below are the screenshots of the deployment steps:
 ### 3. Private Subnets
 ![Private Subnets](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/Subnet-Private.png?raw=true)
 
+### 1. InternetGW Created And Attached To A VPC
+![https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/Internetgateway-attached-to-VPC.png?raw=true)
+
+### 2. Public Route Table
+![Public RT](https://github.com/bettbunga-dev/aws-networking-project/blob/main/project1-networking/screenshots/Routetable-created.png?raw=true)
+
 
 
 🎯 What I Learned
