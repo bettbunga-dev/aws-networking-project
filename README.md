@@ -1,2 +1,68 @@
-# aws-networking-project
-AWS Networking Project: VPC, Subnets, Route Tables, EC2, Gateways, Load Balancers.
+AWS VPC Networking Project
+Overview
+
+This project demonstrates how to design and implement a custom Virtual Private Cloud (VPC) in AWS.
+It includes subnets, route tables, an Internet Gateway, a NAT Gateway, EC2 instances, and proper routing architecture.
+
+All resources were deployed using an AWS-provided lab environment.
+
+📐 VPC Architecture
+
+VPC Configuration Includes:
+
+Custom VPC
+
+2 Public Subnets
+
+2 Private Subnets
+
+Internet Gateway
+
+NAT Gateway
+
+Route Tables (Public + Private)
+
+EC2 Instances placed in the correct subnets
+
+Architecture Diagram:
+(Insert your screenshot here by clicking the image button in the README editor)
+
+🧪 Steps Performed in the Lab
+
+Created a new VPC with a custom CIDR block
+
+Created public and private subnets
+
+Attached an Internet Gateway
+
+Configured route tables
+
+Set up a NAT Gateway for private subnets
+
+Launched EC2 instances in public and private subnets
+
+Verified connectivity
+
+Documented and captured screenshots
+
+📸 Screenshots
+
+Below are the screenshots of the deployment steps:
+(Add your uploaded images here — GitHub allows you to paste images directly)
+
+🎯 What I Learned
+
+VPC design fundamentals
+
+Public vs private subnet routing
+
+How NAT and Internet Gateways work
+
+EC2 network accessibility rules
+
+AWS networking best practices
+
+📎 LinkedIn Post
+
+I also shared this project on LinkedIn as part of my cloud portfolio:
+(You will paste your LinkedIn post link here once we create it.)
